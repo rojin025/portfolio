@@ -24,11 +24,14 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Technology Consultant
+              Full Stack Software Engineer
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Bagmati, Nepal
+              Danphe Innovations
             </h4>
+            <h5 className="vertical-timeline-element-subtitle">
+              Kathmandu, Nepal
+            </h5>
             <p>
               Frontend Development, Backend Development, User Experience, UI
               Design
@@ -41,9 +44,14 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Maharishi International University
+              Master's Degree in Software Development
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h4 className="vertical-timeline-element-subtitle">
+              Maharishi International University
+            </h4>
+            <h5 className="vertical-timeline-element-subtitle">
+              Fairfield, IA
+            </h5>
             <p>Master's Degree in Software Development.</p>
             <p>Teach Stack - React, Angular, MongoDB, NodeJS</p>
           </VerticalTimelineElement>
@@ -56,8 +64,13 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">
               Software Developer
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>Full-stack Development, API Development, User Experience</p>
+            <h4 className="vertical-timeline-element-subtitle">
+              Brand Builder
+            </h4>
+            <h5 className="vertical-timeline-element-subtitle">
+              Pokhara, Nepal
+            </h5>
+            <p>Front End Development, Consuming Backend API, User Experience</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>

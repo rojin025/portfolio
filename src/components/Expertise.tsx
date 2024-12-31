@@ -4,7 +4,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faReact,
   faDocker,
+  faJava,
   faNodeJs,
+  faSquareJs,
+  faGit,
+  faGitAlt,
+  faGithub,
+  faAngular,
   faPython,
 } from "@fortawesome/free-brands-svg-icons";
 import Chip from "@mui/material/Chip";
@@ -14,25 +20,30 @@ const frontend = [
   "React",
   "TypeScript",
   "JavaScript",
+  "React Native",
   "HTML5",
   "CSS3",
   "SASS",
-  "Flask",
-  "Python",
-  "SQL",
+  "Tailwind",
+  "Bootstrap",
+  "ShadCn/ui",
 ];
-
 const backend = [
-  "MONGODB",
-  "EXPRESS",
+  "NodeJS",
+  "NextJS",
+  "Java",
+  "SQL",
+  "MongoDB",
+  "Express",
   "Postman",
   "Git",
   "GitHub Actions",
+  "CI/CD",
   //   "Docker",
   //   "AWS",
 ];
 
-const ai = ["OpenAI", "Claude"];
+const ai = ["OpenAI", "Claude", "Python"];
 
 function Expertise() {
   return (
@@ -42,15 +53,19 @@ function Expertise() {
         <div className="skills-grid">
           <div className="skill">
             <FontAwesomeIcon icon={faReact} size="3x" />
-            <h3>Front End Stack Web Development</h3>
+            <FontAwesomeIcon icon={faSquareJs} size="3x" />
+
+            <FontAwesomeIcon icon={faAngular} size="3x" />
+            <h3>Frontend</h3>
             <p>
-              I have built a diverse array of web applications from scratch
-              using modern technologies such as React and Flask. I have a strong
-              proficiency in the SDLC process and frontend + backend
-              development.
+              I have implemented dynamic and responsive web applications by
+              designing and optimizing user interfaces, ensuring seamless
+              navigation and accessibility. My work involves transforming
+              complex requirements into intuitive front-end solutions while
+              maintaining clean and maintainable code.
             </p>
             <div className="flex-chips">
-              <span className="chip-title">Tech stack:</span>
+              <div className="chip-title">Tech stack:</div>
               {frontend.map((label, index) => (
                 <Chip key={index} className="chip" label={label} />
               ))}
@@ -59,15 +74,20 @@ function Expertise() {
 
           <div className="skill">
             <FontAwesomeIcon icon={faNodeJs} size="3x" />
+            <FontAwesomeIcon icon={faJava} size="3x" />
+            <FontAwesomeIcon icon={faGitAlt} size="3x" />
+            <FontAwesomeIcon icon={faGithub} size="3x" />
 
             <h3>Backend & Automation</h3>
             <p>
-              Once the application is built, I help clients set up DevOps
-              testing, CI/CD pipelines, and deployment automation to support the
-              successful Go-Live.
+              I have developed robust backend solutions by designing and
+              implementing APIs, managing databases, and optimizing server-side
+              performance. My work includes ensuring secure and efficient data
+              handling, setting up automated testing workflows, and streamlining
+              deployment processes to support seamless application delivery.
             </p>
             <div className="flex-chips">
-              <span className="chip-title">Tech stack:</span>
+              <div className="chip-title">Tech stack:</div>
               {backend.map((label, index) => (
                 <Chip key={index} className="chip" label={label} />
               ))}
@@ -78,13 +98,14 @@ function Expertise() {
             <FontAwesomeIcon icon={faPython} size="3x" />
             <h3>GenAI & LLM</h3>
             <p>
-              Stay relevant in the market by leveraging the latest AI models in
-              your projects. I have professional experience building enterprise
-              grade GenAI-enabled solutions to empower intelligent decision
-              making.
+              I stay at the forefront of innovation by integrating the latest AI
+              models into projects to deliver intelligent and adaptive
+              solutions. My experience includes building enterprise-grade
+              GenAI-enabled systems that enhance decision-making and drive
+              efficiency.
             </p>
             <div className="flex-chips">
-              <span className="chip-title">Tech stack:</span>
+              <div className="chip-title">Tech stack:</div>
               {ai.map((label, index) => (
                 <Chip key={index} className="chip" label={label} />
               ))}

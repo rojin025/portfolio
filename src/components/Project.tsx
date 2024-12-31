@@ -13,11 +13,19 @@ function Project() {
       <h1>Personal Projects</h1>
       <div className="projects-grid">
         <div className="project">
-          <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer">
+          <a
+            href="https://react-side-project-rentals.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={mock06} className="zoom" alt="thumbnail" width="100%" />
           </a>
-          <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer">
-            <h2>WeManage: Real Estate Asset Management</h2>
+          <a
+            href="https://react-side-project-rentals.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>House Rental</h2>
           </a>
           <p>
             This mobile application allows realtors in Japan to securely manage
