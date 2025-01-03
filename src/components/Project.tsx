@@ -46,33 +46,44 @@ function Project() {
         <div className="project">
           <div>
             <a
-              href="https://www.byuh.edu/covid-19-case-management"
+              href="https://github.com/rojin025/angular-side-project/tree/main/Drugs-App"
               target="_blank"
               rel="noreferrer"
             >
-              <img
-                src={protfolio}
-                className="zoom"
-                alt="thumbnail"
-                width="100%"
-              />
+              <img src={mock04} className="zoom" alt="thumbnail" width="100%" />
             </a>
           </div>
 
           <div>
             <a
-              href="https://www.byuh.edu/covid-19-case-management"
+              href="https://github.com/rojin025/angular-side-project/tree/main/Drugs-App"
               target="_blank"
               rel="noreferrer"
             >
-              <h2>COVID-19 Case Management</h2>
+              <h2> Medication Web App</h2>
             </a>
             <p>
-              Built official charts for COVID/vaccination tracking for an
-              educational institution using JavaScript and the Google Sheets API
-              v4. The dashboard served the university's leadership in their
-              decision-making processes.
+              A secure web app using Angular and JWT for user authentication.
+              Guests can browse medications and read reviews, while logged-in
+              users can add, update, or delete reviews.
             </p>
+            <ul>
+              <li>
+                Key Features: JWT Authentication: Login-based access for
+                protected actions. Lazy Loading: User-protected components are
+                lazy-loaded for performance. State Management: Signals for all
+                state properties in components/services. Reactive Forms: Use
+                ReactiveFormsModule exclusively for forms. Angular Material: UI
+                built with Angular Material, adhering to web standards.
+              </li>
+              <li>
+                Development Guidelines: Leverage the latest Angular features
+                (e.g., standalone components, signals). Ensure clean
+                architecture, strong type-checking, and modularity. Optimize
+                performance with lazy loading and OnPush change detection. This
+                app prioritizes security, efficiency, and modern design.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
