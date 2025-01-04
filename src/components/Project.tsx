@@ -1,14 +1,7 @@
-import React from "react";
-import mock01 from "../assets/images/mock01.png";
-import mock02 from "../assets/images/mock02.png";
-import mock03 from "../assets/images/mock03.png";
-import mock04 from "../assets/images/mock04.png";
-import mock05 from "../assets/images/mock05.png";
-
-import protfolio from "../assets/images/Portfolio.webp";
-import rental from "../assets/images/Rental.gif";
-
 import "../assets/styles/Project.scss";
+
+import mock04 from "../assets/images/mock04.png";
+import rental from "../assets/images/Rental.gif";
 
 function Project() {
   return (
