@@ -29,6 +29,11 @@
   transform: scale(1.05);
 }
 
+.chip span {
+  font-family: "Courier Prime", monospace;
+  color: white;
+}
+
 @media screen {
   @media (max-width: 700px) {
     .certificates-container {
