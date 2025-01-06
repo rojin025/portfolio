@@ -10,6 +10,7 @@ import {
 } from "./components";
 import FadeIn from "./components/FadeIn";
 import "./index.scss";
+import Certificate from "./components/Certificate";
 
 function App() {
   const [mode, setMode] = useState<string>("dark");
@@ -37,6 +38,7 @@ function App() {
         <Main />
         <Expertise />
         <Timeline />
+        <Certificate />
         <Project />
         <Contact />
       </FadeIn>
