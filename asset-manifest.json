@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b5d11906.css",
-    "main.js": "/portfolio/static/js/main.a17a6a41.js",
+    "main.css": "/portfolio/static/css/main.df55504b.css",
+    "main.js": "/portfolio/static/js/main.8abbf33a.js",
     "static/js/453.b05d8aa5.chunk.js": "/portfolio/static/js/453.b05d8aa5.chunk.js",
     "static/media/Rental.gif": "/portfolio/static/media/Rental.d9df95d1185127428c5f.gif",
     "static/media/bg-light.png": "/portfolio/static/media/bg-light.f420c6b8458af72de935.png",
+    "static/media/CertificateOfCompletion_React, Next.js&Redux.jpg": "/portfolio/static/media/CertificateOfCompletion_React, Next.js&Redux.bcf0f7c77004c9ccd08e.jpg",
+    "static/media/CertificateOfCompletion_JavaScript Algorithms and Data Structures.jpg": "/portfolio/static/media/CertificateOfCompletion_JavaScript Algorithms and Data Structures.98be55356588f62e34f9.jpg",
+    "static/media/CertificateOfCompletion_LearningGitAndGitHub.png": "/portfolio/static/media/CertificateOfCompletion_LearningGitAndGitHub.9b6626d848defffc5f30.png",
     "static/media/profilePic.png": "/portfolio/static/media/profilePic.7f8b65b0c97509136cb0.png",
     "static/media/mock04.png": "/portfolio/static/media/mock04.7ed3bf22e54e05e98901.png",
     "index.html": "/portfolio/index.html",
-    "main.b5d11906.css.map": "/portfolio/static/css/main.b5d11906.css.map",
-    "main.a17a6a41.js.map": "/portfolio/static/js/main.a17a6a41.js.map",
+    "main.df55504b.css.map": "/portfolio/static/css/main.df55504b.css.map",
+    "main.8abbf33a.js.map": "/portfolio/static/js/main.8abbf33a.js.map",
     "453.b05d8aa5.chunk.js.map": "/portfolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5d11906.css",
-    "static/js/main.a17a6a41.js"
+    "static/css/main.df55504b.css",
+    "static/js/main.8abbf33a.js"
   ]
 }
