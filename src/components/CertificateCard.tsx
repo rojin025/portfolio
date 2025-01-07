@@ -17,12 +17,12 @@ function CertificateCard({
   return (
     <div className="certificate">
       <div>
-        <img src={image} className="zoom" alt="thumbnail" width="100%" />
+        <img src={image} className="zoom" alt="thumbnail" />
       </div>
 
       <div>
         <h2>{title}</h2>
-        <h4>{company}</h4>
+        {/* <h4>{company}</h4> */}
         <p>{issued}</p>
         <p>{certificateId}</p>
         Skills:
